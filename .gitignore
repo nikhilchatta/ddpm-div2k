@@ -1,0 +1,14 @@
+# Ignore large folders
+__pycache__/
+Diffusion/__pycache__/
+SampledImgs/
+data/
+Checkpoints/
+*.pt
+*.pth
+*.tar
+*.log
+*.ckpt
+*.npz
+*.npy
+

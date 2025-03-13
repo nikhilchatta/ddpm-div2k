@@ -1,0 +1,7 @@
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+data/cifar-10-python.tar.gz filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+data/** filter=lfs diff=lfs merge=lfs -text
+SampledImgs/** filter=lfs diff=lfs merge=lfs -text
+Checkpoints/** filter=lfs diff=lfs merge=lfs -text
